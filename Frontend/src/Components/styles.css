@@ -1,0 +1,298 @@
+.Groc
+{
+    background-color: purple;
+    width:1365px;
+    height:100px;
+   
+}
+.cardimg
+{
+    border: 1px solid gray;
+    width: 1365px;
+    height: 530px;
+}
+.head5
+{
+    margin-left: 600px;
+    margin-top: -300px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.head6
+{
+    margin-left: 500px;
+    margin-top: -300px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.head7
+{
+    margin-left: 500px;
+    margin-top: -350px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.head8
+{
+    margin-left: 500px;
+    margin-top: -380px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.addres
+{
+    margin-left:800px;
+}
+.admindash
+{
+    width: 100%;
+    background-color: maroon;
+    height:100px;
+    color:white;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  
+  .card-container .card {
+    margin: 10px;
+  }
+  .deliveryinfo
+  {
+    opacity: 0.8; 
+    margin-top: 100px;
+  }
+  .grids
+  {
+    border: 2px dotted black;
+  }
+  .imggs
+  {
+    transition: transform 0.3s ease-in,box-shadow 0.3s ease-in-out;
+  }
+.imggs:hover 
+{
+        transform: scale(1.1); /* Scale up the image */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Add shadow */
+}
+.btnss
+{
+    margin-left: 100px;
+}
+.adminlogincard {
+    width: 500px;
+    margin-top: -800px;
+    margin-left: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with opacity */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add subtle shadow */
+    opacity: 0.7; /* Change opacity on hover */
+  }
+
+  .userlogincard
+  {
+    width: 500px;
+    margin-top: -750px;
+    margin-left: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with opacity */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add subtle shadow */
+    opacity: 0.7; /* Change opacity on hover */
+  }
+  .emplogincard
+  {
+    width: 500px;
+    margin-top: -650px;
+    margin-left: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with opacity */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add subtle shadow */
+    opacity: 0.7; /* Change opacity on hover */
+  }
+  .regcard {
+    width: 600px;
+    margin: -1000px auto 0; /* Centers the card horizontally and positions it with a negative top margin */
+    background-color: black; /* Set the background color to black */
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+    padding: 20px; /* Optional: add padding for inner content */
+    border-radius: 10px; /* Optional: rounded corners */
+    color: white; /* Set text color to white for better contrast */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+.aboutcard
+{
+  width: 800px;
+  margin-left:100px;
+  margin-top: -1000px;
+  background-color: black; /* Set the background color to black */
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+  padding: 20px; /* Optional: add padding for inner content */
+  border-radius: 10px; /* Optional: rounded corners */
+  color: white; /* Set text color to white for better contrast */
+  transition: opacity 0.3s ease; /* Smooth transition */
+opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+.card1
+{
+   width: 18rem;
+   margin-left:100px;
+   margin-top: -500px;
+   transition: opacity 0.3s ease; /* Smooth transition */
+   opacity: 0.7; /* Adjusted opacity for better visibility */
+   height:190px;
+   text-align: center;
+}
+.card2
+{
+   width: 18rem;
+   margin-left:500px;
+   margin-top: -165px;
+   transition: opacity 0.3s ease; /* Smooth transition */
+   opacity: 0.7; /* Adjusted opacity for better visibility */
+  height:170px;
+  text-align: center;
+}
+.card3
+{
+   width: 18rem;
+   margin-left:900px;
+   margin-top: -145px;
+   transition: opacity 0.3s ease; /* Smooth transition */
+   opacity: 0.7; /* Adjusted opacity for better visibility */
+   height: 170px;
+   text-align: center;
+}
+/* Custom CSS for active nav link */
+.active-link {
+  background-color: white; /* Change to your desired color */
+  color: maroon !important; /* Ensure the text stays white */
+  border-radius: 4px; /* Optional: adds rounded corners */
+  padding: 5px; /* Optional: adjust padding */
+}
+.dashboard-background {
+  background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+  width: 100%;
+  height: 1500px;
+  background-size: cover; /* Adjusts image size */
+  margin-top: 0.5px;
+}
+.citycard
+{
+  width: 500px;
+  height: 400px;
+  margin-left: 30px;
+  box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+  padding: 20px; /* Optional: add padding for inner content */
+  color: white; /* Set text color to white for better contrast */
+  transition: opacity 0.3s ease; /* Smooth transition */
+opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+.displaycitycard
+{
+  width: 500px;
+  height: 400px;
+  margin-left: 600px;
+  box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+  padding: 20px; /* Optional: add padding for inner content */
+  color: white; /* Set text color to white for better contrast */
+  transition: opacity 0.3s ease; /* Smooth transition */
+  opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+.displayareacard
+{
+  width: 500px;
+  height: 400px;
+  margin-left: 600px;
+  box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+  padding: 20px; /* Optional: add padding for inner content */
+  color: white; /* Set text color to white for better contrast */
+  transition: opacity 0.3s ease; /* Smooth transition */
+  opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+.displayservicecard
+{
+  width: 500px;
+  height: 400px;
+  margin-left: 600px;
+  box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+  padding: 20px; /* Optional: add padding for inner content */
+  color: white; /* Set text color to white for better contrast */
+  transition: opacity 0.3s ease; /* Smooth transition */
+  opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+.addempcard
+{
+  width: 1000px;
+  height: 400px;
+  margin-left: 150px; 
+  box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+  padding: 20px; /* Optional: add padding for inner content */
+  color: white; /* Set text color to white for better contrast */
+  transition: opacity 0.3s ease; /* Smooth transition */
+opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+.displayempcard
+{
+  width: 1000px;
+  height: 400px;
+  margin-left: 150px; 
+  box-shadow: 0 4px 8px rgba(76, 190, 82, 0.1); /* Subtle shadow */
+  padding: 20px; /* Optional: add padding for inner content */
+  color: white; /* Set text color to white for better contrast */
+  transition: opacity 0.3s ease; /* Smooth transition */
+opacity: 0.8; /* Adjusted opacity for better visibility */
+}
+
+.status1card
+{
+  width: 1000px;
+  text-align: center;
+  margin-left: 150px;
+}
+.displayfeedcard
+{
+  width: 1000px;
+  text-align: center;
+  margin-left: 150px;
+}
+.userdashboard-background {
+  background-image: url('https://wallpapers.com/images/hd/green-color-background-fy21up0cvdsp7345.jpg');
+  width: 100%;
+  height: 1500px;
+  background-size: cover; /* Adjusts image size */
+  margin-top: -22px;
+}
+.pickdeliverycard
+{
+  width: 900px;
+  margin-left: 150px;
+  margin-top: -1400px;
+
+}
+.empdashboard-background
+{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/008/804/954/non_2x/abstract-background-illustration-yellow-abstract-background-with-simple-shape-vector.jpg');
+  width: 100%;
+  height: 1500px;
+  background-size: cover; /* Adjusts image size */
+ margin-top: 1px;
+}
+.displayfeed2card
+{
+  width: 900px;
+  margin-left: 150px;
+ text-align: center;
+}
